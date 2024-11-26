@@ -13,7 +13,7 @@ import {
 
 
 const Theme = () => {
-  const { setTheme, theme } = useTheme()
+  const { setTheme } = useTheme()
 
   return (
     <DropdownMenu>
